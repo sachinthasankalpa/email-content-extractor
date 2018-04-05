@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 21, 2018 9:25:50 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.sachintha.dis.webapp.pojo.DefectInfo" table="defect_info" catalog="mail_content_extractor" optimistic-lock="version">
+        <id name="rollNo" type="string">
+            <column name="roll_no" length="45" />
+            <generator class="assigned" />
+        </id>
+        <property name="goG" type="string">
+            <column name="go_g" length="100" />
+        </property>
+        <property name="customerC" type="string">
+            <column name="customer_c" length="100" />
+        </property>
+        <property name="ppoNo" type="string">
+            <column name="ppo_no" length="100" />
+        </property>
+        <property name="usageU" type="string">
+            <column name="usage_u" length="100" />
+        </property>
+        <property name="comboC" type="string">
+            <column name="combo_c" length="100" />
+        </property>
+        <property name="batchNo" type="string">
+            <column name="batch_no" length="100" />
+        </property>
+        <property name="qtyKgs" type="string">
+            <column name="qty_kgs" length="100" />
+        </property>
+        <property name="qtyYardage" type="string">
+            <column name="qty_yardage" length="100" />
+        </property>
+        <property name="originalWd" type="string">
+            <column name="original_wd" length="100" />
+        </property>
+        <property name="actualWd" type="string">
+            <column name="actual_wd" length="100" />
+        </property>
+        <property name="defectD" type="string">
+            <column name="defect_d" length="100" />
+        </property>
+        <property name="defectPosition" type="string">
+            <column name="defect_position" length="100" />
+        </property>
+        <property name="batchFocQtyYds" type="string">
+            <column name="batch_foc_qty_yds" length="100" />
+        </property>
+        <property name="jobJ" type="string">
+            <column name="job_j" length="100" />
+        </property>
+        <property name="issueI" type="string">
+            <column name="issue_i" length="100" />
+        </property>
+        <property name="processMethod" type="string">
+            <column name="process_method" length="200" />
+        </property>
+        <property name="remarkR" type="string">
+            <column name="remark_r" length="200" />
+        </property>
+        <property name="datetimeD" type="string">
+            <column name="datetime_d" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>
